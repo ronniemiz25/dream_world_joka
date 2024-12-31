@@ -1,0 +1,144 @@
+/* samsung note 20 */
+@media only screen and (-webkit-min-device-pixel-ratio: 2.625) {
+    
+}
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+h1, h2 {font-size:1.2rem;}
+h3 {font-size: 1rem;}
+h4 {font-size:1.2rem;font-weight: 700;}
+h6 {font-size:1rem;}
+.thanku_bg p{font-size:15px;}
+.thanku_bg img{width:220px;}
+.tick_double ul{columns: 1; -webkit-columns: 1; -moz-columns: 1;}
+.carousel-caption {
+    position: inherit;
+    width: 100%!important;background-image: linear-gradient(var(--blue), var(--dblue));
+    padding: 10px;bottom: 0;right: 0!important;left: 0!important;text-align:center;
+}
+.carousel-indicators [data-bs-target]{display:none;}
+.banner-main .carousel-caption h1 {font-size:1.5rem;}
+.banner-main .carousel-caption h3 {font-size:.8rem!important;}
+/* .banner-main .carousel-item img {height:180px;object-fit:cover;object-position: 100% 0;} */
+#backto-top{display: none;}
+.menu-buttons span{font-size: 14px;}
+.custom-logo-link::after{left: -70px;border-top: 70px solid #fff;width: 240px;}
+.scroll_navbar .custom-logo-link::after{border-top: 65px solid #fff;transition: 400ms all ease;}
+
+.menumain .btn-primary{padding: 5px 10px;position: absolute;right: 70px;bottom: 7px;}
+.menumain .btn-primary i{font-size: 12px;}
+.stellarnav .icon-close{position: relative;right: 10px;}
+.modal-body{padding: 20px;}
+.btn-close{top: -15px;right: -8px;}
+
+.floating_icon_bar {
+    position: fixed;top: unset;left:auto;right:auto;
+    -webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);
+    transform: unset;z-index: 999;bottom: 0;width: 100%;background:#fff;display: flex;
+}
+.floating_icon_bar a {
+    display: inline-block;text-align: center;padding: 5px 0;transition: all 0.3s ease;color: white;
+    font-size: 15px;width:50%;height:auto;line-height:auto;border-radius:0;margin:0 auto;
+}
+.sectiongap{padding: 30px 0;}
+.section_title h2,.section_title_left h2{font-size: 22px;}
+.floors .nav-pills .nav-link, .gallery .nav-pills .nav-link{font-size: 15px;}
+.ribbon3{font-size: 13px;}
+.gallery .gall_col{height: 110px;margin-bottom: 20px;}
+.thanku_bg{padding: 220px 0;}
+footer{padding-bottom: 40px;}
+.amenities .amencol{padding: 16px;}
+.whyus .whycol i{font-size: 14px;position: relative;top: 4px;}
+.overlay_txt h4{font-size: 20px;}
+.sub-overview{display: none;}
+.overview img{margin-bottom: 20px;}
+.floors ul, .gallery ul{margin: 30px 0;}
+.gallery .gall_col .pic_overlay i{font-size: 16px;height: 50px;width: 50px;line-height: 50px;}
+.section_title_left{margin-bottom: 0;}
+.sticky_div{position: static;}
+.locate .nav{margin-bottom: 20px;}
+.locate .table th[scope="row"]{font-size: 13px;}
+iframe{height: 300px!important;}
+footer .right_footer,footer .left_footer{text-align: center;}
+footer .left_footer{margin-bottom: 20px;}
+footer .right_footer h4:after,footer .left_footer h4:after{left: 0;right: 0;margin: 0 auto;}
+.foot_logo{text-align: center;}
+.locate .nav-pills .nav-link{padding: 8px;margin-bottom: 10px;}
+.banner-main img{width: 100%;}
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+
+
+}
+  
+
+  
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 769px) and (max-width: 1024px){
+p {font-size: .7rem;}
+h1, h2 {font-size:1.2rem!important;margin-bottom: 5px;}
+
+
+
+}
+ 
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {  
+.stellarnav > ul > li > a {
+    padding: 16px 15px!important;
+    font-size: 11px!important;
+}
+
+}
+
+
+@media only screen 
+and (min-device-width : 820px) 
+and (max-device-width : 1180px) 
+and (orientation : landscape) {  
+.stellarnav > ul > li > a {padding: 16px 15px!important;font-size: 11px!important;}
+.logo-main img { height: 65px;}
+
+}
+
+
+
+ 
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1199px){
+
+
+}
+  
+   
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1366px){
+
+
+
+} 
+/* Media Query for Large screens */
+@media (min-width: 1920px) {
+.container{max-width: 1320px;}
+
+	
+}
+
+@media (min-width: 1079px) and (max-width: 1920px){
+
+}
+
+
+
+
+
+
